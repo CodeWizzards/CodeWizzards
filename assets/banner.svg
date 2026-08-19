@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">CodeWizzards</title>
+  <desc id="desc">A dark blue developer profile banner with a constellation pattern.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#080E1D"/>
+      <stop offset="1" stop-color="#101C38"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="300" rx="16" fill="url(#background)"/>
+  <g stroke="#2563EB" stroke-opacity=".42" stroke-width="1.5" fill="none">
+    <path d="M36 74 155 42 266 91 388 36 494 106 613 61 728 118 846 52 978 98 1142 36"/>
+    <path d="M72 223 192 171 318 221 436 160 552 206 680 157 806 213 940 153 1070 190 1171 125"/>
+    <path d="M155 42 192 171M266 91 318 221M388 36 436 160M494 106 552 206M613 61 680 157M728 118 806 213M846 52 940 153M978 98 1070 190"/>
+  </g>
+  <g fill="#60A5FA" filter="url(#glow)">
+    <circle cx="36" cy="74" r="3"/><circle cx="155" cy="42" r="4"/><circle cx="266" cy="91" r="3"/><circle cx="388" cy="36" r="4"/><circle cx="494" cy="106" r="3"/><circle cx="613" cy="61" r="4"/><circle cx="728" cy="118" r="3"/><circle cx="846" cy="52" r="4"/><circle cx="978" cy="98" r="3"/><circle cx="1142" cy="36" r="4"/>
+    <circle cx="72" cy="223" r="3"/><circle cx="192" cy="171" r="4"/><circle cx="318" cy="221" r="3"/><circle cx="436" cy="160" r="4"/><circle cx="552" cy="206" r="3"/><circle cx="680" cy="157" r="4"/><circle cx="806" cy="213" r="3"/><circle cx="940" cy="153" r="4"/><circle cx="1070" cy="190" r="3"/><circle cx="1171" cy="125" r="4"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="600" y="146" fill="#F8FAFC" font-size="55" font-weight="700" letter-spacing="1">CodeWizzards</text>
+    <rect x="448" y="171" width="304" height="2" rx="1" fill="url(#accent)"/>
+    <text x="600" y="211" fill="#BFDBFE" font-size="19" letter-spacing="3">BUILD · LEARN · EVOLVE</text>
+  </g>
+</svg>
